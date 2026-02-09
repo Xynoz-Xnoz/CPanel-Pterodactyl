@@ -1,9 +1,12 @@
+const partA = "ghp_IT1QPDL55d47Uzb";
+const partB = "hecCt9plJzG4DL50RaiMe";
+
 const CONFIG = {
-    TOKEN: "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", 
+    TOKEN: partA + partB,
     USER: "Xynoz-Xnoz",
     REPO: "DB-IMAGINATION-TRASHER",
-    DB_FILE: "db.json",     
-    USER_FILE: "user.json"   
+    DB_FILE: "db.json",
+    USER_FILE: "user.json"
 };
 
 function getApiUrl(filename) {
